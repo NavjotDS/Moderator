@@ -3,7 +3,7 @@
 WebApp Link: [Automated Content Moderation Web App](https://moderator-415722.ue.r.appspot.com/) (It might take around 30-40 seconds to load)
 
 ## Introduction
-This project aims to develop an automated content moderation system capable of classifying textual content as appropriate or inappropriate for public display. The system leverages machine learning models and natural language processing techniques to analyze textual data and provide classification results in real-time.
+This project implements an automated content moderation system that classifies textual content as appropriate or inappropriate for public display. Leveraging machine learning models and natural language processing techniques, the system analyzes textual data in real-time to provide classification results. Additionally, the project extends its functionality to extract text from images and memes, enabling classification based on the extracted textual content.
 
 ## Files Included
 1. `Data_Preprocessing.ipynb`: Jupyter notebook for loading and preprocessing the dataset (`hate_offensive_data.csv`) to create a new CSV file (`preprocessed_data.csv`).
@@ -15,7 +15,7 @@ This project aims to develop an automated content moderation system capable of c
 7. `Flask_app/app.yaml`: Configuration file required for deploying the Flask application on Google App Engine.
 
 ## Steps to Simulate the Project
-1. Download the zip file and unzip it.
+1. Download the repository or clone it using the following command: git clone https://github.com/NavjotDS/Moderator.git
 2. Install the required Python libraries listed in `requirements.txt`: `pip install -r requirements.txt`
 3. Run `Data_Preprocessing.ipynb` to preprocess the dataset and generate the `preprocessed_data.csv` file.
 4. Open and run `LSTM.ipynb` to train and evaluate the LSTM model for text classification using the preprocessed data.
@@ -27,3 +27,6 @@ Note:
 - Trained model (BERT) files are not included in the repository and need to be trained separately using the provided notebooks. 
 - BERT training may take time. We had used Google Colab to train it faster. 
 - Also, please change the file locations in the python files accordingly.
+
+## Deployment
+The web application developed as part of this project has been deployed using Google App Engine, a cloud-based hosting platform known for its scalability and reliability. This deployment ensures seamless access and global availability of the content moderation system, meeting the demands of varying user loads and usage patterns.
