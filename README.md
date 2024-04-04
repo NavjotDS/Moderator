@@ -1,6 +1,7 @@
 # Automated Content Moderation System
 
-WebApp Link: [Automated Content Moderation Web App](https://moderator-415722.ue.r.appspot.com/) (It might take around 30-40 seconds to load)
+WebApp Link: [Automated Content Moderation Web App](https://moderator-415722.ue.r.appspot.com/) 
+(It might take around 30-40 seconds to load due to the initialization of various components, such as loading machine learning models, establishing connections with external APIs, and configuring the backend server.)
 
 ## Introduction
 This project implements an automated content moderation system that classifies textual content as appropriate or inappropriate for public display. Leveraging machine learning models and natural language processing techniques, the system analyzes textual data in real-time to provide classification results. Additionally, the project extends its functionality to extract text from images and memes, enabling classification based on the extracted textual content.
@@ -30,9 +31,10 @@ Note:
 
 ## Deployment
 The web application developed as part of this project has been deployed using Google App Engine, a cloud-based hosting platform known for its scalability and reliability. This deployment ensures seamless access and global availability of the content moderation system, meeting the demands of varying user loads and usage patterns.
+WebApp Link: [Automated Content Moderation Web App](https://moderator-415722.ue.r.appspot.com/) 
 
 ## Contributors
 
 - [Navjot Singh](https://github.com/NavjotDS)
-- [Samaun Sarwar Khan](https://github.com/Samaun)
-- [Umang Sood ](https://github.com/Umang)
+- [Samaun Sarwar Khan](https://github.com/)
+- [Umang Sood ](https://github.com/)
