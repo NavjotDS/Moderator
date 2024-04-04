@@ -30,3 +30,9 @@ Note:
 
 ## Deployment
 The web application developed as part of this project has been deployed using Google App Engine, a cloud-based hosting platform known for its scalability and reliability. This deployment ensures seamless access and global availability of the content moderation system, meeting the demands of varying user loads and usage patterns.
+
+## Contributors
+
+- [Navjot Singh](https://github.com/NavjotDS)
+- [Samaun Sarwar Khan](https://github.com/Samaun)
+- [Umang Sood ](https://github.com/Umang)
