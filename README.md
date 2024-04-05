@@ -36,5 +36,5 @@ WebApp Link: [Automated Content Moderation Web App](https://moderator-415722.ue.
 ## Contributors
 
 - [Navjot Singh](https://github.com/NavjotDS)
-- [Samaun Sarwar Khan](https://github.com/)
-- [Umang Sood ](https://github.com/)
+- [Samaun Sarwar Khan](https://github.com/SamaKhan35)
+- [Umang Sood ](https://github.com/Umang-us98)
