@@ -4,7 +4,7 @@ WebApp Link: [Automated Content Moderation Web App](https://moderator-415722.ue.
 (It might take around 30-40 seconds to load due to the initialization of various components, such as loading machine learning models, establishing connections with external APIs, and configuring the backend server.)
 
 ## Introduction
-This project implements an automated content moderation system that classifies textual content as appropriate or inappropriate for public display. Leveraging machine learning models and natural language processing techniques, the system analyzes textual data in real-time to provide classification results. Additionally, the project extends its functionality to extract text from images and memes, enabling classification based on the extracted textual content.
+This project implements an automated content moderation system that classifies textual content as appropriate or inappropriate for public display. Leveraging machine learning models (LSTM and BERT) and natural language processing techniques, the system analyzes textual data in real-time to provide classification results. Additionally, the project extends its functionality to extract text from images and memes (using Google Cloud Vision API ), enabling classification based on the extracted textual content.
 
 ## Files Included
 1. `Data_Preprocessing.ipynb`: Jupyter notebook for loading and preprocessing the dataset (`hate_offensive_data.csv`) to create a new CSV file (`preprocessed_data.csv`).
@@ -28,6 +28,18 @@ Note:
 - Trained model (BERT) files are not included in the repository and need to be trained separately using the provided notebooks. 
 - BERT training may take time. We had used Google Colab to train it faster. 
 - Also, please change the file locations in the python files accordingly.
+
+## Results
+To assess the performance of our classification models, we conducted a comprehensive evaluation using key metrics such as accuracy, precision, recall, and the F1 score. These metrics provide valuable insights into the abilities of classifiers to accurately categorize textual content as either inappropriate or appropriate for public display.
+
+| Metric    | LSTM       | BERT       |
+|-----------|------------|------------|
+| Accuracy  | 93.65%     | 95.62%     |
+| Precision | 95.97%     | 97.20%     |
+| Recall    | 96.41%     | 97.55%     |
+| F1 Score  | 96.19%     | 97.37%     |
+
+Through these evaluations, BERT demonstrated superior performance over LSTM, particularly in terms of accuracy, precision, recall, and F1 score. BERT's enhanced capabilities make it the preferred choice for accurate and reliable content moderation tasks.
 
 ## Deployment
 The web application developed as part of this project has been deployed using Google App Engine, a cloud-based hosting platform known for its scalability and reliability. This deployment ensures seamless access and global availability of the content moderation system, meeting the demands of varying user loads and usage patterns.
